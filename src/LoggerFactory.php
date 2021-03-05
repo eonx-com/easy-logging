@@ -193,6 +193,6 @@ final class LoggerFactory implements LoggerFactoryInterface
      */
     private function sortConfigs(array $configs): array
     {
-        return CollectorHelper::orderLowerPriorityFirstAsArray($configs);
+        return CollectorHelper::orderLowerPriorityFirst($configs);
     }
 }
