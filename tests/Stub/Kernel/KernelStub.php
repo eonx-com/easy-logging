@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace EonX\EasyLogging\Tests\Stub\HttpKernel;
+namespace EonX\EasyLogging\Tests\Stub\Kernel;
 
 use EonX\EasyLogging\Bundle\EasyLoggingBundle;
 use EonX\EasyUtils\Bundle\EasyUtilsBundle;
